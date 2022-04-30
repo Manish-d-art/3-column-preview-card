@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card1,
+.card2,
+.card3 {
+    height: 100%;
+    width: 100%;
+    margin: 1.5rem;
+    flex-basis: 33.3%;
+}
